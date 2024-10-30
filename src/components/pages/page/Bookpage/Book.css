@@ -1,0 +1,52 @@
+.title{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(197, 197, 197);
+}
+.title h1{
+    font-weight: lighter;
+    color: rgb(53, 53, 53);
+}
+.about-movie-sec{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.time-btn{
+    padding: 5px 10px;
+    margin: 6px;
+    border: none;
+    background-color: rgb(228, 45, 78);
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 11px;
+    font-weight: 700; 
+}
+.time-btn2{
+    background-color: white;
+    color: black;
+}
+.booking-sec{
+    background-color: rgb(233, 233, 233);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.pvr-sec{
+    max-width: 1320px;
+    margin: 0 auto;
+    background-color: white;
+    /* padding: 10px; */
+}
+.show-sec{
+    border-bottom: 1px solid rgb(192, 192, 192);
+}
+.ticket-btn{
+    padding: 10px 25px;
+    border: 1px solid black;
+    color: green;
+    background-color: white;
+    border-radius: 5px;
+    margin: 10px;
+}

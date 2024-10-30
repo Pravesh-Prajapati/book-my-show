@@ -1,0 +1,31 @@
+
+.col-3{
+    width: 25%;
+}
+.col-4{
+    width: 33.66%;
+}
+
+.col-6{
+    width: 50%;
+}
+
+.col-12{
+    width: 100%;
+}
+.movie-list{
+    width: 20%;
+    text-decoration: none;
+}
+.all-movie{
+    display: flex;
+    flex-wrap: wrap;
+}
+.img{
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+}
+.images{
+    margin: 10px;
+}

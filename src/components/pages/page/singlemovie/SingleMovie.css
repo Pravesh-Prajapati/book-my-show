@@ -1,0 +1,109 @@
+section {
+    background-color: black;
+    color: white;
+}
+
+/* .bg-movie{
+    background-image: url("https://assets-in.bmscdn.com/iedb/movies/images/mobile/listing/xxlarge/tumbbad-et00079092-1726221741.jpg");
+    min-height: 400px;
+    object-fit: cover;
+} */
+.bg-movie {
+    position: relative;
+    background-color: #000;
+    min-height: 450px;
+    padding: 40px 0px;
+}
+
+
+.bg-movie::before {
+    content: ' ';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    opacity: 0.4;
+    background: url("https://assets-in.bmscdn.com/iedb/movies/images/mobile/listing/xxlarge/tumbbad-et00079092-1726221741.jpg") no-repeat center center;
+    background-size: cover;
+    box-shadow: inset -20px 10px 10px 0px #000;
+}
+.about {
+    position: relative;
+    width: 80%;
+    display: flex;
+}
+.about img{
+    border-radius:20px;
+}
+.top-img{
+    width: 25%;
+    height: 100%;
+}
+.main-img{
+    /* background-image: url("https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/tumbbad-et00079092-1726221741.jpg"); */
+    display: block;
+    width: 100%;
+    /* height: 100%; */
+    height:390px;
+    /* height: 416px; */
+    background-size: cover;
+    background-repeat: no-repeat;    
+}
+.right-detail{
+    width: 75%;
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+}
+.star{
+    color: #8a2be2;
+    font-size: 22px;
+    margin-right: 8px;
+}
+
+.rate{
+    /* background-color: rgb(182, 182, 182); */
+    background-color: rgb(51, 51, 51);;
+    color: white;
+    margin-top: 20px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    /* margin-left: 20px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 13px 20px;
+    width: 350px;
+}
+.rate-btn{
+    padding: 8px 6px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+}
+.timing{
+    display: flex;
+    gap: 20px;
+    margin: 15px 0px;
+    color: rgb(255, 255, 255);
+    margin-right: 0px;
+}
+.timing h3{
+    font-size: 16px;
+    line-height: 24px;
+    /* letter-spacing: 0.2px; */
+    font-weight: 500;
+}
+.book-btn{
+    padding: 15px 50px;
+    background-color: rgb(248, 68, 100);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+}
+.about-sec{
+   border-bottom: 1px solid rgb(205, 205, 205);
+}
